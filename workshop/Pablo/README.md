@@ -67,7 +67,7 @@ Ahora, creamos una nueva pagina a la cual navegar llamada CaptureView (de la mis
 ```xaml
     ...
     
-    <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,40" Command="{Binding CaptureCommand}" />
+    <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="{StaticResource BackgroundColor}" FontAttributes="Bold" Margin="20,0,20,40" Command="{Binding CaptureCommand}" />
     
     ...
 ```
@@ -80,7 +80,7 @@ Ahora, creamos una nueva pagina a la cual navegar llamada CaptureView (de la mis
 
 <?xml version="1.0" encoding="UTF-8"?>
 <NavigationPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RetroGamesGO.CustomNavigationPage"
-                BarBackgroundColor="#121619" BarTextColor="White">
+                BarBackgroundColor="{StaticResource BackgroundColor}" BarTextColor="White">
 </NavigationPage>
 
 ```
