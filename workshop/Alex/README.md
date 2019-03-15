@@ -1,5 +1,5 @@
 # Character.cs 
-## ROUND1 (Model): Agregamos el modelo para los personajes
+## ROUND3 (Model): Agregamos el modelo para los personajes
 
 ```c#
   public class Character
@@ -11,7 +11,7 @@
 ```
 
 # MainPageViewModel.cs 
-## ROUND2 (ViewModel): Creamos el MainPageViewModel
+## ROUND4 (ViewModel): Creamos el MainPageViewModel
 
 ```c#
     public class MainPageViewModel : INotifyPropertyChanged
@@ -67,7 +67,7 @@
 ```
 
 # MainPage.xaml 
-## ROUND3(View): Agregamos los Bindings en la View
+## ROUND5(View): Agregamos los Bindings en la View
 
 ```xaml
 <?xml version="1.0" encoding="utf-8"?>
