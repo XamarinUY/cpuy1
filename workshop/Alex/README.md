@@ -43,19 +43,19 @@
         {
             Characters = new List<Character>()
             {
-                new Characters()
+                new Character()
                 {
                     Name = "Sonic",
                     Description = "Sonic es...",
                     ImageSource = ""
                 },
-                new Characters()
+                new Character()
                 {
                     Name = "Mario",
                     Description = "Mario es...",
                     ImageSource = ""
                 },
-                new Characters()
+                new Character()
                 {
                     Name = "Donkey kong",
                     Description = "Donkey kong es...",
