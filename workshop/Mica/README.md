@@ -33,7 +33,7 @@ https://github.com/AndreiMisiukevich/CardView
 
 Como agregar el plugin? en la carpeta Packages de cada proyecto click derecho --> add packages --> buscar "CardsView"
 
-![image](https://github.com/XamarinUY/cpuy1/blob/master/workshop/Mica/Screen%20Shot%202019-03-15%20at%2012.45.20.png =100x100)
+![image](https://github.com/XamarinUY/cpuy1/blob/master/workshop/Mica/Screen%20Shot%202019-03-15%20at%2012.45.20.png)
 
 
 ![alt text](https://github.com/XamarinUY/cpuy1/blob/master/workshop/Mica/Screen%20Shot%202019-03-14%20at%2022.38.11.png)
