@@ -5,14 +5,21 @@ Agregamos los assets: https://github.com/XamarinUY/cpuy1/blob/master/workshop/Vi
 invision: https://invis.io/5WR19BMAT7G#/352480367_WelcomeSplash
 
 ## ROUND1: Creamos el template del personaje
-
+Creamos un template para cada personaje:
 ```xaml
-<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:local="clr-namespace:Test" 
-             x:Class="Test.MainPage">
-    
+    <StackLayout BackgroundColor="Black">
+        <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="Gray" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+        </Frame>
+        <Button Text="CAPTURAR" BackgroundColor="Yellow" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,20"/>
+    </StackLayout>
+``` 
+
+Agregamos los colores que están en el invision:
+```xaml
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="BackgroundColor">#121619</Color>
@@ -26,14 +33,13 @@ invision: https://invis.io/5WR19BMAT7G#/352480367_WelcomeSplash
         <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
             <StackLayout>
                 <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                <Image Source="mario_color.png"/>
                 <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
             </StackLayout>
         </Frame>
         <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,20"/>
     </StackLayout>
-</ContentPage>
 ```
+
 ## ROUND 2: Agregamos el CardsView Plugin 
 https://github.com/AndreiMisiukevich/CardView
 
