@@ -31,7 +31,7 @@
 ## ROUND 2: Agregamos el CardsView 
 https://github.com/AndreiMisiukevich/CardView
 
-Agregamos la referencia al plugin en el ContentPage:xmlns: `cards="clr-namespace:PanCardView;assembly=PanCardView"
+Agregamos la referencia al plugin en el ContentPage:xmlns: `cards="clr-namespace:PanCardView;assembly=PanCardView" `
 
 ```xaml
 <?xml version="1.0" encoding="utf-8"?>
@@ -77,6 +77,6 @@ Agregamos la referencia al plugin en el ContentPage:xmlns: `cards="clr-namespace
         <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,40"/>
     </StackLayout>
 </ContentPage>
-    ```
+```
     
     
