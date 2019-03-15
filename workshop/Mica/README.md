@@ -33,7 +33,7 @@ Agregamos los colores que están en el invision:
 <StackLayout BackgroundColor="{StaticResource BackgroundColor}">
     <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
         <StackLayout>
-            <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Label Text="Mario Bros!" TextColor="White" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
             <Image Source="mario_color.png"/>
             <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
         </StackLayout>
