@@ -70,6 +70,12 @@
 ## ROUND5(View): Agregamos los Bindings en la View
 
 ```xaml
+
+<!--Binding Context-->
+	    <ContentPage.BindingContext>
+	        <local:MainPageViewModel/>
+	    </ContentPage.BindingContext>
+
 <StackLayout 
     BackgroundColor="{StaticResource BackgroundColor}" 
     Padding="0,30,0,0" 
