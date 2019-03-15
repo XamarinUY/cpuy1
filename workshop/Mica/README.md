@@ -11,6 +11,7 @@ Creamos un template para cada personaje:
         <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="Gray" VerticalOptions="FillAndExpand">
             <StackLayout>
                 <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                <Image Source="mario_color.png"/>
                 <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
             </StackLayout>
         </Frame>
@@ -33,6 +34,7 @@ Agregamos los colores que están en el invision:
         <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
             <StackLayout>
                 <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                <Image Source="mario_color.png"/>
                 <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
             </StackLayout>
         </Frame>
