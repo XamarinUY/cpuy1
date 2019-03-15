@@ -1,6 +1,6 @@
 # MainPage.xaml 
 
-#Agregamos los assets: https://github.com/XamarinUY/cpuy1/blob/master/workshop/Vic/Stickers.zip
+Agregamos los assets: https://github.com/XamarinUY/cpuy1/blob/master/workshop/Vic/Stickers.zip
 
 invision: https://invis.io/5WR19BMAT7G#/352480367_WelcomeSplash
 
