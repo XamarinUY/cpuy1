@@ -28,8 +28,11 @@
     </StackLayout>
 </ContentPage>
 ```
-## ROUND 2: Agregamos el CardsView 
+## ROUND 2: Agregamos el CardsView Plugin 
 https://github.com/AndreiMisiukevich/CardView
+
+Como agregar el plugin? en la carpeta Packages de cada proyecto click derecho --> add packages --> buscar "CardsView"
+
 
 Agregamos la referencia al plugin en el ContentPage: `xmlns: cards="clr-namespace:PanCardView;assembly=PanCardView" `
 
