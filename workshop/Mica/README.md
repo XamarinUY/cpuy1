@@ -29,6 +29,9 @@
 </ContentPage>
 ```
 ## ROUND 2: Agregamos el CardsView 
+https://github.com/AndreiMisiukevich/CardView
+
+Agregamos la referencia al plugin en el ContentPage:xmlns: `cards="clr-namespace:PanCardView;assembly=PanCardView"
 
 ```xaml
 <?xml version="1.0" encoding="utf-8"?>
