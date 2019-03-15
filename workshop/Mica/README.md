@@ -33,9 +33,9 @@ https://github.com/AndreiMisiukevich/CardView
 
 Como agregar el plugin? en la carpeta Packages de cada proyecto click derecho --> add packages --> buscar "CardsView"
 
-<img src="https://github.com/XamarinUY/cpuy1/blob/master/workshop/Mica/Screen%20Shot%202019-03-15%20at%2012.45.20.png" width="48">
+<img src="https://github.com/XamarinUY/cpuy1/blob/master/workshop/Mica/Screen%20Shot%202019-03-15%20at%2012.45.20.png" width="200">
 
-![alt text](https://github.com/XamarinUY/cpuy1/blob/master/workshop/Mica/Screen%20Shot%202019-03-14%20at%2022.38.11.png)
+<img src="https://github.com/XamarinUY/cpuy1/blob/master/workshop/Mica/Screen%20Shot%202019-03-14%20at%2022.38.11.png" width="200">
 
 Agregamos la referencia al plugin en el ContentPage: `xmlns: cards="clr-namespace:PanCardView;assembly=PanCardView" `
 
