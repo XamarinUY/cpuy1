@@ -31,7 +31,7 @@
 ## ROUND 2: Agregamos el CardsView 
 https://github.com/AndreiMisiukevich/CardView
 
-Agregamos la referencia al plugin en el ContentPage:xmlns: `cards="clr-namespace:PanCardView;assembly=PanCardView" `
+Agregamos la referencia al plugin en el ContentPage: `xmlns: cards="clr-namespace:PanCardView;assembly=PanCardView" `
 
 ```xaml
     <StackLayout BackgroundColor="{StaticResource BackgroundColor}" Padding="0,30,0,0" VerticalOptions="FillAndExpand">
