@@ -47,19 +47,19 @@
                 {
                     Name = "Sonic",
                     Description = "Sonic es...",
-                    ImageSource = ""
+                    ImageSource = "sonic_color.png"
                 },
                 new Character()
                 {
                     Name = "Mario",
                     Description = "Mario es...",
-                    ImageSource = ""
+                    ImageSource = "mario_color.png"
                 },
                 new Character()
                 {
                     Name = "Donkey kong",
                     Description = "Donkey kong es...",
-                    ImageSource = ""
+                    ImageSource = "king_kong_color.png"
                 }
             };
         }
