@@ -57,6 +57,6 @@
         
         <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,40"/>
     </StackLayout>
-    ```xaml
+    ```
     
     
