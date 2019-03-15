@@ -1,8 +1,8 @@
 # MainPage.xaml 
 
-#Agregamos los assets: https://invisionapp.com 
+#Agregamos los assets: https://github.com/XamarinUY/cpuy1/blob/master/workshop/Vic/Stickers.zip
 
-https://invis.io/5WR19BMAT7G#/352480367_WelcomeSplash
+invision: https://invis.io/5WR19BMAT7G#/352480367_WelcomeSplash
 
 ## ROUND1: Creamos el template del personaje
 
