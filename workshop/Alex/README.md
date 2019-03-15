@@ -74,8 +74,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
-             xmlns:local="clr-namespace:Test" 
-             x:Class="Test.MainPage">
+             xmlns:local="clr-namespace:Test" <!--TODO: Change this-->
+             x:Class="Test.MainPage"> <!--TODO: Change this-->
     
     <!--Binding Context-->
     <ContentPage.BindingContext>
