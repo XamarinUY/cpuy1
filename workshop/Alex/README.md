@@ -84,7 +84,7 @@
                 <ContentView Padding="40,36,40,15">
                     <Frame HasShadow="false" CornerRadius="15" Padding="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
                         <StackLayout>
-                            <Label Text="{Binding Name}" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                            <Label Text="{Binding Name}" FontSize="Large" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                             <Image Source="{Binding ImageSource}" />
                             <Label Text="{Binding Description}" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                         </StackLayout>
