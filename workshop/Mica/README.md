@@ -7,39 +7,39 @@ invision: https://invis.io/5WR19BMAT7G#/352480367_WelcomeSplash
 ## ROUND1: Creamos el template del personaje
 Creamos un template para cada personaje:
 ```xaml
-    <StackLayout BackgroundColor="Black">
-        <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="Gray" VerticalOptions="FillAndExpand">
-            <StackLayout>
-                <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                <Image Source="mario_color.png"/>
-                <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-            </StackLayout>
-        </Frame>
-        <Button Text="CAPTURAR" BackgroundColor="Yellow" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,20"/>
-    </StackLayout>
+<StackLayout BackgroundColor="Black">
+    <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="Gray" VerticalOptions="FillAndExpand">
+        <StackLayout>
+            <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Image Source="mario_color.png"/>
+            <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </Frame>
+    <Button Text="CAPTURAR" BackgroundColor="Yellow" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,20"/>
+</StackLayout>
 ``` 
 
 Agregamos los colores que están en el invision:
 ```xaml
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="BackgroundColor">#121619</Color>
-            <Color x:Key="CardBackgroundColor">#191e23</Color>
-            <Color x:Key="GoldColor">#f8b82f</Color>
-            <Color x:Key="GrayColor">#999999</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
-    
-    <StackLayout BackgroundColor="{StaticResource BackgroundColor}">
-        <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
-            <StackLayout>
-                <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                <Image Source="mario_color.png"/>
-                <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-            </StackLayout>
-        </Frame>
-        <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,20"/>
-    </StackLayout>
+<ContentPage.Resources>
+    <ResourceDictionary>
+        <Color x:Key="BackgroundColor">#121619</Color>
+        <Color x:Key="CardBackgroundColor">#191e23</Color>
+        <Color x:Key="GoldColor">#f8b82f</Color>
+        <Color x:Key="GrayColor">#999999</Color>
+    </ResourceDictionary>
+</ContentPage.Resources>
+
+<StackLayout BackgroundColor="{StaticResource BackgroundColor}">
+    <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
+        <StackLayout>
+            <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Image Source="mario_color.png"/>
+            <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </Frame>
+    <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,20"/>
+</StackLayout>
 ```
 
 ## ROUND 2: Agregamos el CardsView Plugin 
@@ -54,33 +54,33 @@ Como agregar el plugin? en la carpeta Packages de cada proyecto click derecho --
 Agregamos la referencia al plugin en el ContentPage: `xmlns: cards="clr-namespace:PanCardView;assembly=PanCardView" `
 
 ```xaml
-    <StackLayout BackgroundColor="{StaticResource BackgroundColor}" Padding="0,30,0,0" VerticalOptions="FillAndExpand">
-        <cards:CoverFlowView PositionShiftValue="60" IsCyclical="true" VerticalOptions="FillAndExpand">
-            <cards:CoverFlowView.ItemTemplate>
-                <DataTemplate>
-                    <ContentView Padding="40,36,40,15">
-                        <Frame HasShadow="false" CornerRadius="15" Padding="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
-                            <StackLayout>
-                                <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                                <Image Source="mario_color.png"/>
-                                <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                            </StackLayout>
-                        </Frame>
-                    </ContentView>
-                </DataTemplate>
-            </cards:CoverFlowView.ItemTemplate>
-            <!--ItemsSource-->
-            <cards:CoverFlowView.ItemsSource>
-                <x:Array Type="{x:Type View}">
-                    <ContentView/>
-                    <ContentView/>
-                    <ContentView/>
-                </x:Array>
-            </cards:CoverFlowView.ItemsSource>
-        </cards:CoverFlowView>
-        
-        <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,40"/>
-    </StackLayout>
+<StackLayout BackgroundColor="{StaticResource BackgroundColor}" Padding="0,30,0,0" VerticalOptions="FillAndExpand">
+    <cards:CoverFlowView PositionShiftValue="60" IsCyclical="true" VerticalOptions="FillAndExpand">
+        <cards:CoverFlowView.ItemTemplate>
+            <DataTemplate>
+                <ContentView Padding="40,36,40,15">
+                    <Frame HasShadow="false" CornerRadius="15" Padding="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
+                        <StackLayout>
+                            <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                            <Image Source="mario_color.png"/>
+                            <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                        </StackLayout>
+                    </Frame>
+                </ContentView>
+            </DataTemplate>
+        </cards:CoverFlowView.ItemTemplate>
+        <!--ItemsSource-->
+        <cards:CoverFlowView.ItemsSource>
+            <x:Array Type="{x:Type View}">
+                <ContentView/>
+                <ContentView/>
+                <ContentView/>
+            </x:Array>
+        </cards:CoverFlowView.ItemsSource>
+    </cards:CoverFlowView>
+
+    <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,40"/>
+</StackLayout>
 ```
     
     
