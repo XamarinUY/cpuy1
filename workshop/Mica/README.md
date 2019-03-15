@@ -59,13 +59,7 @@ Agregamos la referencia al plugin en el ContentPage: `xmlns: cards="clr-namespac
         <cards:CoverFlowView.ItemTemplate>
             <DataTemplate>
                 <ContentView Padding="40,36,40,15">
-                    <Frame HasShadow="false" CornerRadius="15" Padding="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
-                        <StackLayout>
-                            <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                            <Image Source="mario_color.png"/>
-                            <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                        </StackLayout>
-                    </Frame>
+                   //Template
                 </ContentView>
             </DataTemplate>
         </cards:CoverFlowView.ItemTemplate>
