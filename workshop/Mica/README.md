@@ -26,6 +26,7 @@ invision: https://invis.io/5WR19BMAT7G#/352480367_WelcomeSplash
         <Frame HasShadow="false" CornerRadius="15" Margin="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
             <StackLayout>
                 <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                <Image Source="mario_color.png"/>
                 <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
             </StackLayout>
         </Frame>
@@ -53,6 +54,7 @@ Agregamos la referencia al plugin en el ContentPage: `xmlns: cards="clr-namespac
                         <Frame HasShadow="false" CornerRadius="15" Padding="20" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
                             <StackLayout>
                                 <Label Text="Mario Bros!" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                <Image Source="mario_color.png"/>
                                 <Label Text="Descripción del personaje..." TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
                             </StackLayout>
                         </Frame>
