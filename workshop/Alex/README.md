@@ -72,9 +72,9 @@
 ```xaml
 
 <!--Binding Context-->
-	    <ContentPage.BindingContext>
-	        <local:MainPageViewModel/>
-	    </ContentPage.BindingContext>
+<ContentPage.BindingContext>
+    <local:MainPageViewModel/>
+</ContentPage.BindingContext>
 
 <StackLayout 
     BackgroundColor="{StaticResource BackgroundColor}" 
