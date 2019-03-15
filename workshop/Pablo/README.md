@@ -8,7 +8,7 @@
 
 ```xaml
 <?xml version="1.0" encoding="UTF-8"?>
-<NavigationPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Test.CustomNavigationPage">
+<NavigationPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RetroGamesGO.CustomNavigationPage">
     
 </NavigationPage>
 
@@ -79,7 +79,7 @@ Ahora, creamos una nueva pagina a la cual navegar llamada CaptureView (de la mis
 ```xaml
 
 <?xml version="1.0" encoding="UTF-8"?>
-<NavigationPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Test.CustomNavigationPage"
+<NavigationPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RetroGamesGO.CustomNavigationPage"
                 BarBackgroundColor="#121619" BarTextColor="White">
 </NavigationPage>
 
