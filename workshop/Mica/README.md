@@ -31,7 +31,23 @@
 ## ROUND 2: Agregamos el CardsView 
 
 ```xaml
-<StackLayout BackgroundColor="{StaticResource BackgroundColor}" Padding="0,30,0,0" VerticalOptions="FillAndExpand">
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:local="clr-namespace:Test" 
+             x:Class="Test.MainPage">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="BackgroundColor">#121619</Color>
+            <Color x:Key="CardBackgroundColor">#191e23</Color>
+            <Color x:Key="GoldColor">#f8b82f</Color>
+            <Color x:Key="GrayColor">#999999</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <StackLayout BackgroundColor="{StaticResource BackgroundColor}" Padding="0,30,0,0" VerticalOptions="FillAndExpand">
         <cards:CoverFlowView PositionShiftValue="60" IsCyclical="true" VerticalOptions="FillAndExpand">
             <cards:CoverFlowView.ItemTemplate>
                 <DataTemplate>
@@ -57,6 +73,7 @@
         
         <Button Text="CAPTURAR" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,40"/>
     </StackLayout>
+</ContentPage>
     ```
     
     
